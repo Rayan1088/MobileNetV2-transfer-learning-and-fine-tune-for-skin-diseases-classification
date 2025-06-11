@@ -1,0 +1,14 @@
+{
+ "argv": [
+  "f:/MobileNetV2/MobileNetV2-fine-tune-and-transfer-learning-for-monkeypox-classification/CVenv\\python.exe",
+  "-m",
+  "ipykernel_launcher",
+  "-f",
+  "{connection_file}"
+ ],
+ "display_name": "Python 3 (ipykernel)",
+ "language": "python",
+ "metadata": {
+  "debugger": true
+ }
+}

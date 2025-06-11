@@ -1,1 +1,1 @@
-# Skin-based-diagnosis-using-MobileNetV2-for-monkeypox-classification
+# MobileNetV2-fine-tune-and-transfer-learning-for-monkeypox-classification
