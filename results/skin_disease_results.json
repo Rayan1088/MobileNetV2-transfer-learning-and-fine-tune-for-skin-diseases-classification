@@ -1,0 +1,133 @@
+{
+    "Test_Metrics": {
+        "accuracy": 0.9935483932495117,
+        "loss": 0.020756451413035393,
+        "precision": 0.9951534867286682,
+        "recall": 0.9935483932495117,
+        "top_2_accuracy": 1.0
+    },
+    "Macro_F1_Score": 0.17571504413399,
+    "Weighted_F1_Score": 0.17582449174798162,
+    "Detailed_Report": {
+        "Chickenpox": {
+            "precision": 0.18446601941747573,
+            "recall": 0.18446601941747573,
+            "f1-score": 0.1844660194174757,
+            "support": 103
+        },
+        "Cowpox": {
+            "precision": 0.15841584158415842,
+            "recall": 0.1568627450980392,
+            "f1-score": 0.15763546798029554,
+            "support": 102
+        },
+        "HFMD": {
+            "precision": 0.1346153846153846,
+            "recall": 0.13592233009708737,
+            "f1-score": 0.13526570048309175,
+            "support": 103
+        },
+        "Healthy": {
+            "precision": 0.17307692307692307,
+            "recall": 0.17307692307692307,
+            "f1-score": 0.17307692307692307,
+            "support": 104
+        },
+        "Measles": {
+            "precision": 0.23076923076923078,
+            "recall": 0.23076923076923078,
+            "f1-score": 0.23076923076923078,
+            "support": 104
+        },
+        "Monkeypox": {
+            "precision": 0.17307692307692307,
+            "recall": 0.17307692307692307,
+            "f1-score": 0.17307692307692307,
+            "support": 104
+        },
+        "accuracy": 0.17580645161290323,
+        "macro avg": {
+            "precision": 0.1757367204233493,
+            "recall": 0.17569569525594655,
+            "f1-score": 0.17571504413399,
+            "support": 620
+        },
+        "weighted avg": {
+            "precision": 0.17584483944672383,
+            "recall": 0.17580645161290323,
+            "f1-score": 0.17582449174798162,
+            "support": 620
+        }
+    },
+    "Class_Names": [
+        "Chickenpox",
+        "Cowpox",
+        "Healthy",
+        "HFMD",
+        "Measles",
+        "Monkeypox"
+    ],
+    "Confusion_Matrix": [
+        [
+            19,
+            12,
+            21,
+            23,
+            13,
+            15
+        ],
+        [
+            25,
+            16,
+            13,
+            15,
+            17,
+            16
+        ],
+        [
+            11,
+            21,
+            14,
+            16,
+            24,
+            17
+        ],
+        [
+            14,
+            18,
+            22,
+            18,
+            16,
+            16
+        ],
+        [
+            16,
+            14,
+            17,
+            11,
+            24,
+            22
+        ],
+        [
+            18,
+            20,
+            17,
+            21,
+            10,
+            18
+        ]
+    ],
+    "Model_Config": {
+        "Base_model": "MobileNetV2",
+        "Image_size": [
+            224,
+            224,
+            3
+        ],
+        "Number_Classes": 6,
+        "Epochs_Frozen": 300,
+        "Epochs_Fine": 300,
+        "Initial_Lr_For_Transfer_Learning": 0.001,
+        "Initial_Lr_For_Fine_Tuning": 1e-07
+    }
+}
